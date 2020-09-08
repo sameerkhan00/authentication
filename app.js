@@ -9,7 +9,7 @@ let signup = () =>{
         var errorCode = error.code;
         var errorMessage = error.message;
         // ...
-        console.log(error)
+        console.log(errorMessage)
       });
 }
 
@@ -25,6 +25,6 @@ let login =()=>{
         var errorCode = error.code;
         var errorMessage = error.message;
         // ...
-      console.log(error)
+      console.log(errorMessage)
       });
 }
